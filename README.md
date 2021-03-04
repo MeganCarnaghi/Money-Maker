@@ -12,6 +12,8 @@ A form with two inputs (number of coins and type of coins) that, when submitted,
 
 ## Link to Deployed Application
 
+<https://megancarnaghi.github.io/Money-Maker/>
+
 ## Screenshot
 
 ![screenshot](images/screenshot.png)
