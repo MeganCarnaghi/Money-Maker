@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM Exercise 4</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fascinate&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+  <body>
+    <main class="main">
+      <h1>Money Maker</h1>
+      <div class="formAndTotal__Div">
+        <form class="form">
+          <!-- Num of Coins -->
+          <label for="coinNum">How many coins?</label>
+          <input type="number" id="coinNum" min="0" required />
+          <!-- Type of Coin -->
+          <label for="coinType">Which coin?</label>
+          <select id="coinType">
+            <option value="penny">Penny</option>
+            <option value="nickel">Nickel</option>
+            <option value="dime">Dime</option>
+            <option value="quarter">Quarter</option>
+          </select>
+          <button type="submit" id="makeMoney">$ MAKE MONEY $</button>
+        </form>
+        <div class="moneyTotal__div">
+          <h3>Your Total:</h3>
+          <div class="moneyTotal__piggybankimg">
+            <p class="moneyTotal__p"></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="main__coins"></div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
